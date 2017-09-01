@@ -22,7 +22,7 @@
 </div>
 
 <div class="container " >
-	
+
 
 
 <form>
@@ -31,8 +31,8 @@
   <div class="col-xs-6 col-md-4 col-centered">
       <div class="form-group">
       <h1>Sign In</h1>
-    
-	
+
+
       </div>
 
   </div>
@@ -47,7 +47,7 @@
     <label for="username">Username</label>
     <div class="input-group">
   <span class="glyphicon glyphicon-user input-group-addon" aria-hidden="true"></span>
-	<input type="text" class="form-control" name="username" />
+	<input type="text" class="form-control" name="username" required/> <!--here 'required' is must so that no empty data is checked with datadase-->
       </div>
 </div>
 
@@ -59,7 +59,7 @@
     <label for="password">Password</label>
     <div class="input-group">
   <span class="glyphicon glyphicon-asterisk input-group-addon" aria-hidden="true"></span>
-	<input type="Password" class="form-control" name="password" />
+	<input type="Password" class="form-control" name="password" required />
       </div>
 </div>
 
@@ -69,7 +69,7 @@
 <div class="row " >
 <div class="col-xs-6 col-md-4 col-centered">
   <div class="checkbox">
-	
+
 	<label>
 		<input type="checkbox" name="">
 		Keep me logged in
@@ -82,7 +82,7 @@
 <div class="row "  >
 <div class="col-xs-6 col-md-4 col-centered">
   <div class="form-group" >
-    
+
 	<input type="submit" value="Sign In" class="btn btn-default center-block colourtwo " name="Sign Up" style="background-color: #E0F7FA "/>
   <div>
 
@@ -91,11 +91,19 @@
   </div>
 </div>
 
+<div class="row " >
+<div class="col-xs-6 col-md-4 col-centered">
 
 
+	<center><a id="register"  href="SignUpPage.html" >Still Not Registered!Click Here</a></center>
+</div>
+
+  </div>
 
 
 </form>
+
+
 
 </div>
 
